@@ -1,0 +1,30 @@
+
+public class Character {
+	private int Health;
+	private int Mana;
+	private String[] Abilities;
+
+	
+	public Character(int Health, int Mana, String[] Abilities) {
+        this.Health = Health;
+        this.Mana = Mana;
+        this.Abilities = Abilities;
+        
+    }
+	
+	public void setHealth (int HP) {
+		this.Health = HP;
+	}
+	public int getHealth() {
+		return Health;
+	}
+	public void setMana (int MP) {
+		this.Mana = MP;
+	}
+	public int getMana() {
+		return Mana;
+	}
+	public String[] getAbilities() {
+		return Abilities;
+	}
+}

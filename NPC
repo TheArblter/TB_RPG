@@ -1,0 +1,17 @@
+
+public class NPC {
+	private int GoblinHP;
+	
+	public NPC(int GoblinHP) {
+		this.GoblinHP = GoblinHP;
+	}
+	
+	
+	public void setGoblinHP(int GHP) {
+		this.GoblinHP = GHP;
+	}
+	public int getGoblinHP() {
+		return GoblinHP;
+	}
+
+}
